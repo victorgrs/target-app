@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rootstrap.android">
+    package="com.target.android">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
-        android:name=".App"
+        android:name="com.target.android.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,7 +16,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".ui.activity.main.SignUpActivity"
+            android:name="com.target.android.ui.activity.main.SignUpActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,11 +25,11 @@
         </activity>
 
         <activity
-            android:name=".ui.activity.main.ProfileActivity"
+            android:name="com.target.android.ui.activity.main.ProfileActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".ui.activity.main.SignInActivity"
+            android:name="com.target.android.ui.activity.main.SignInActivity"
             android:screenOrientation="portrait" />
 
     </application>
